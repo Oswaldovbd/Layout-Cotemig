@@ -1,0 +1,509 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato' , sans-serif;
+    overflow-x: hidden;
+}
+header {
+    background: rgba(0, 0, 0, 0.7); 
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+main {
+    z-index: -1000;
+}
+
+#logo {
+    padding-left: 21%;
+    position: relative;
+    top: 13px;
+}
+
+#cabeca {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+.cabeca2 {
+    position: relative;
+    bottom: 25px;
+    left: 130px;
+    margin-left: 25px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#menino {
+    position: absolute;
+    z-index: -1000;
+    bottom:450px;
+    width: 100vw;
+}
+
+h1 {
+    color:white;
+    margin-left: 400px;
+    margin-top: 100px;
+    font-size: 2.5em;
+}
+
+p {
+    color:white;
+    margin-left: 405px;
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+.clique {
+    display: flex;
+    justify-content: center;
+    width: 310px;
+    background: #40aa0b;
+    color: white;
+    padding: 1em;
+    border-radius: 8px;
+    font-weight: 700;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+#meio {
+    text-align: center;
+    color:black;
+    margin-top: 210px;
+    margin-right: 400px;
+    font-size: 40px;
+}
+
+#meiobaixo {
+    text-align: center;
+    color:black;
+    margin-top: 15px;
+    margin-right: 400px;
+    font-size: 18px;
+}
+
+#garotos {
+    margin-top: 60px;
+    margin-left: 15em;
+    border-radius: 8px;
+}
+
+.garotostext {
+    display: flex;
+    flex-direction: row;
+    margin-left: 12.5em;
+    list-style: none;
+    margin-top: 20px;
+}
+
+#garotos2 {
+    border-radius: 8px;
+}
+
+#texto {
+    margin-left: 1em;
+    margin-top: 0.5em;
+}
+
+#google {
+    border-radius: 8px;
+}
+
+#texto2 {
+    margin-left: 1em;
+    margin-top: 0.5em;
+}
+
+#colegio {
+    position: absolute;
+    margin-left: 10.5em;
+    margin-top: 7em;
+    color: white;
+}
+
+#inove {
+    margin-top: 3.8em;
+    margin-left: 37em;
+    border-radius: 8px;
+    z-index: -1000;
+}
+
+#posicao1 {
+    position: absolute;
+    margin-left: -4em;
+}
+
+#inovetitulo {
+    position: absolute;
+    margin-left: 25.5em;
+    margin-top: 8em;
+    color: white;
+}
+
+.inovetext {
+    display: flex;
+    flex-direction: row;
+    margin-left: 35em;
+    margin-top: 1em;
+}
+
+#homem {
+    border-radius: 8px;
+}
+
+#texto3 {
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+#celular {
+    border-radius: 8px;
+}
+
+#texto4 {
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+#mulher {
+    border-radius: 8px;
+}
+
+#texto5 {
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+#posgrad {
+    position: absolute;
+    bottom: 2.6em;
+    margin-left: 56.7em;
+    border-radius: 8px;
+    z-index: -1000;
+}
+
+#posicao2 {
+    position: absolute;
+    margin-left: -0.2em;
+}
+
+#posgradtitulo {
+    position: absolute;
+    margin-left: 39em;
+    top: 36em;
+    color: white;   
+}
+
+.posgradtext {
+    display: flex;
+    flex-direction: row;
+    margin-left: 55em;
+    margin-top: 1em;
+    position: relative;
+    top: 16em;
+}
+
+#homem2 {
+    border-radius: 8px;
+}
+
+#mulher2 {
+    border-radius: 8px;
+}
+
+#texto6 {
+    margin-left: 1em;
+    margin-top: 0.8em;
+}
+
+#texto7 {
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+#celular2 {
+    margin-left: 82.5em;
+    border-radius: 8px;
+    position: absolute;
+    top: 45.9em;
+    z-index: -1000;
+}
+
+#celulartitulo {
+    margin-left: 55.6em;
+    margin-top: 1em;
+    color: white;
+}
+
+.celulartext {
+    display: flex;
+    flex-direction: row;
+    margin-left: 80em;
+    margin-top: 2em;
+}
+
+#celular3 {
+    border-radius: 8px;
+}
+
+#texto8 {
+    margin-left: 1em;
+    margin-top: 0.7em;
+}
+
+#posicao4 {
+   margin-left: 6em;
+}
+
+#posicao3 {
+    margin-left: 6em;
+}
+
+#titulinho {
+    position: absolute;
+    left: 350px;
+    margin-top: 200px; 
+    font-size: 3em;
+    color: black;
+}
+
+#meiuca {
+    color: black;
+    position: absolute;
+    margin-top: 300px;
+    left: 120px;
+    font-size: 18px;
+    color: #424242;
+}
+
+#barroca {
+    margin-left: 20em;
+    margin-top: 25em;
+    border-radius: 12px;
+}
+
+#central {
+    margin-left: 70em;
+    position: absolute;
+    top: 88.1em;
+    border-radius: 12px;
+}
+
+#floresta {
+    margin-left: 45em;
+    position: absolute;
+    top: 88.1em;
+    border-radius: 12px;
+}
+
+#barrocatitulo {
+    margin-left: 16.8em;
+    font-size: 20px;
+    color: #424242;
+}
+
+#barrocatext {
+    color: #424242;
+    font-size: 16px;
+    margin-left: 23em;
+}
+
+#florestatitulo {
+    margin-left: 37em;
+    margin-top: -4.1em;
+    font-size: 20px;
+    color: #424242;
+}
+
+#florestatext {
+    color: #424242;
+    font-size: 16px;
+    margin-left: 48em;
+}
+
+#centraltitulo {
+    margin-left: 57em;
+    margin-top: -4.1em;
+    font-size: 20px;
+    color: #424242;
+}
+
+#centraltext {
+    color: #424242;
+    font-size: 16px;
+    margin-left: 74em;
+}
+
+#contato {
+    color: #424242;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 39em;
+    margin-top: 4em;
+}
+
+#telefone {
+    font-weight: 900;
+    font-size: 32px;
+    color:#40aa0b;
+    font-weight: 700;
+    margin-left: 24.3em;
+    position: absolute;
+    top: 1810px;
+}
+
+#noticias {
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    color: #111;
+    margin-top: 3em;
+    margin-left: -2em;
+}
+
+#trabaio {
+    border-radius: 12px;
+    margin-left: 20em;
+    margin-top: 3em;
+}
+
+#trabaiotitulo {
+    color: white;
+    font-size: 16px;
+    margin-top: -5em;
+    margin-left: 21em;
+}
+
+#notebooki {
+    border-radius: 12px;
+    margin-left: 38.5em;
+    margin-top: -19em;
+}
+
+#notebookititulo {
+    color: white;
+    font-size: 16px;
+    margin-top: -5em;
+    margin-left: 39.5em;
+}
+
+#sala {
+    border-radius: 12px;
+    margin-left: 56.9em;
+    margin-top: -19em;
+}
+
+#salatitulo {
+    color: white;
+    font-size: 16px;
+    margin-top: -6em;
+    margin-left: 57.7em;
+}
+
+#pc {
+    border-radius: 12px;
+    margin-left: 75.1em;
+    margin-top: -19.2em;
+}
+
+#pctitulo {
+    color: white;
+    font-size: 16px;
+    margin-top: -6em;
+    margin-left: 76em;
+}
+
+footer {
+    width: 100%;
+    height: 400px;
+    background: rgba(7, 7, 7, 0.938);
+    margin-top: 4%;
+}
+
+strong {
+    font-size: 1.125em;
+    color: #fff;
+}
+
+.listas {
+    font-size: 14px;
+    color: #bdbdbd;
+    list-style: none;
+}
+
+.lista1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    margin-left: 10em;
+    font-size: 14px;
+}
+
+#lista1div {
+    position: absolute;
+    left: 100px;
+    top: 155em;
+}
+
+.lista2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    font-size: 14px;
+    margin-left: 25em;
+}
+
+#lista2div {
+    position: absolute;
+    left: 100px;
+    top: 155em;
+}
+
+.lista3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    font-size: 14px;
+    margin-left: 50em;
+}
+
+#lista3div {
+    position: absolute;
+    left: 100px;
+    top: 155em;
+}
+
+#final {
+    font-size: 16px;
+    margin-left: 65em;
+    position: absolute;
+    left: 100px;
+    top: 155em;
+}
+
+#footer_text {
+    font-size: 15px;
+    color: #bdbdbd;
+    margin-left: 76.1em;
+    position: absolute;
+    top: 167em;
+}
+
+#botao2 {
+    position: absolute;
+    left: 740px;
+    top: 160em;
+}
+
+#logo2 {
+    margin-left: 17em;
+    margin-top: 18em;
+}
